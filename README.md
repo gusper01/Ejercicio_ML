@@ -9,7 +9,7 @@
 
 *[Fases del proyecto](#Fases-del-proyecto)
 
-*[Acceso al proyecto](#acceso-proyecto)
+*[Acceso al proyecto](#Acceso-al-proyecto)
 
 *[Tecnologías utilizadas](#tecnologías-utilizadas)
 
@@ -71,4 +71,4 @@ Esta métrica se utiliza para evaluar la calidad de un modelo de regresión. Es 
 Un valor cercano a 1 indica que el modelo explica una gran parte de la variabilidad de los datos y se ajusta bien a los datos. Un valor cercano a 0 indica que el modelo no explica mucha variabilidad y no se ajusta bien a los datos. Es importante tener en cuenta que un valor negativo de R2 no es una situación común y, en general, si se obtiene un valor negativo, es una señal de que el modelo no es apropiado para los datos.
 
  ## Despliegue :rocket:
- 
+ # Acceso-al-proyecto
