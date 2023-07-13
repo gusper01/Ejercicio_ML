@@ -37,24 +37,24 @@ La metodología CRISP-DM define 6 fases en un proyecto de minería de datos o ma
 Muchas organizaciones  utilizan modelos para pronosticar variables económicas clave, como la inflación, el crecimiento del PBI, las tasas de interés, entre otras. Estos modelos pueden incorporar una amplia gama de variables y utilizar algoritmos sofisticados para mejorar la precisión de las predicciones. El objetivo es proporcionar pronósticos más precisos que respalden la toma de decisiones. Es este contexto se propone. Desarrollar un ejercicio que recorra todos los pasos necesarios para generar modelo de Machine Learning que pueda predecir la tasa de inflación de Estados Unidos. utilizando datos/variables macroeconómicas. En general este problema se aborda combinando técnicas de regresión y series de tiempo. En este caso se toman datos de series de tiempo con indicadores macroeconómicos publicadas por la Reserva Federal (USA FED). https://fred.stlouisfed.org/docs/api/fred/overview.html 
  ## Comprensión de los datos
  Se toma como fuente de datos un conjunto de series de tiempo que contienen los siguientes indicadores macroeconómicos de ESTADOS UNIDOS
-__CPIAUCSL__ este el índice de precios al consumidor para todas las áreas urbanas de USA. y representa el cambio porcentual mensual de los precios de una canasta de bienes y servicios consumidos por los hogares urbanos.
+*__CPIAUCSL__ este el índice de precios al consumidor para todas las áreas urbanas de USA. y representa el cambio porcentual mensual de los precios de una canasta de bienes y servicios consumidos por los hogares urbanos.
 https://fred.stlouisfed.org/series/CPIAUCSL
-__FEDFUNDS__ Este es la serie de tiempo de la tasa de interés. Posee frecuencia mensual  
+*__FEDFUNDS__ Este es la serie de tiempo de la tasa de interés. Posee frecuencia mensual  
 https://fred.stlouisfed.org/series/FEDFUNDS
-__UNRATE__ Esta es la serie de tiempo de la tasa de desempleo, posee frecuencia mensual y 
+*__UNRATE__ Esta es la serie de tiempo de la tasa de desempleo, posee frecuencia mensual y 
 representa la cantidad de desempleados como un porcentaje de la fuerza laboral. 
 https://fred.stlouisfed.org/series/UNRATE
-__UMCSENT__ Esta es la serie de tiempo del índice de sentimiento del consumidor, se basa en una encuesta realizada por la Universidad de Michigan a un grupo de consumidores para evaluar sus actitudes y expectativas hacia la economía, posee frecuencia mensual.
+*__UMCSENT__ Esta es la serie de tiempo del índice de sentimiento del consumidor, se basa en una encuesta realizada por la Universidad de Michigan a un grupo de consumidores para evaluar sus actitudes y expectativas hacia la economía, posee frecuencia mensual.
 https://fred.stlouisfed.org/series/UMCSENT
-__MYAGM2USM052S__ Esta es la serie de tiempo de la oferta monetaria M2 en los Estados Unidos. M2 es una medida amplia de la oferta monetaria que incluye el efectivo en circulación, los depósitos a la vista y los depósitos a plazo en instituciones financieras, así como ciertos instrumentos financieros de corto plazo. Posee frecuencia mensual. 
+*__MYAGM2USM052S__ Esta es la serie de tiempo de la oferta monetaria M2 en los Estados Unidos. M2 es una medida amplia de la oferta monetaria que incluye el efectivo en circulación, los depósitos a la vista y los depósitos a plazo en instituciones financieras, así como ciertos instrumentos financieros de corto plazo. Posee frecuencia mensual. 
 https://fred.stlouisfed.org/series/MYAGM2USM052S
-__WPUSI012011__ Esta serie proporciona información sobre los cambios en los precios de los materiales utilizados en la industria de la construcción en los Estados Unidos. Posee frecuencia mensual. 
+*__WPUSI012011__ Esta serie proporciona información sobre los cambios en los precios de los materiales utilizados en la industria de la construcción en los Estados Unidos. Posee frecuencia mensual. 
 https://fred.stlouisfed.org/series/WPUSI012011
-__IPMAN__ Esta es la serie de tiempo del índice de producción industrial de manufacturas de Estados Unidos. Posee frecuencia mensual 
+*__IPMAN__ Esta es la serie de tiempo del índice de producción industrial de manufacturas de Estados Unidos. Posee frecuencia mensual 
 https://fred.stlouisfed.org/series/IPMAN
-__MARTSMPCSM44000USS__ Esta serie representa la variación porcentual mensual en las ventas minoristas en Estados Unidos
+*__MARTSMPCSM44000USS__ Esta serie representa la variación porcentual mensual en las ventas minoristas en Estados Unidos
 https://fred.stlouisfed.org/series/MARTSMPCSM44000USS
-__MICH__ Esta serie proporciona información sobre las expectativas de inflación de los consumidores en Estados Unidos. Esta serie mide las percepciones y predicciones de los consumidores sobre la tasa de inflación futura en la economía. Posee frecuencia mensual.
+*__MICH__ Esta serie proporciona información sobre las expectativas de inflación de los consumidores en Estados Unidos. Esta serie mide las percepciones y predicciones de los consumidores sobre la tasa de inflación futura en la economía. Posee frecuencia mensual.
 https://fred.stlouisfed.org/series/MICH 
 
  ## Preparación de los datos
