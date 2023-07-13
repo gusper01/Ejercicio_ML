@@ -41,13 +41,13 @@ Muchas organizaciones  utilizan modelos para pronosticar variables económicas c
  ## Preparación de los datos
  ## Modelado
  ## Evaluación
-__Métricas de evaluación__ 
+* Métricas de evaluación 
 Las métricas en la evaluación de modelos de Machine Learning permiten medir la precisión, el error y la capacidad de explicación del modelo. Al utilizar estas métricas en conjunto, se puede obtener una imagen completa del rendimiento del modelo y tomar decisiones sobre su utilidad y eficacia. Para evaluar los resultados del ejercicio se decide aplicar las siguientes métricas:
-__MSE (Mean Square Error) Error Cuadrático Medio__
+* MSE (Mean Square Error) Error Cuadrático Medio_
 El MSE se calcula como el promedio de los cuadrados de las diferencias entre los valores predichos y los valores reales. Un MSE más bajo indica que las predicciones del modelo son más cercanas a los valores reales en promedio. Se considera que un MSE más bajo indica una mejor precisión en las predicciones debido a que: • El MSE penaliza más los errores grandes. Al elevar al cuadrado las diferencias, los errores más grandes tienen un impacto mayor en el resultado final. Esto significa que, si el modelo comete algunos errores significativos, el MSE aumentará rápidamente. Por lo tanto, un MSE más bajo indica que el modelo está cometiendo en promedio menos errores grandes.
-MAE (Mean Absolute Error) Error Absoluto Medio
+* MAE (Mean Absolute Error) Error Absoluto Medio
 El MAE mide el promedio de las diferencias absolutas entre los valores predichos y los valores reales. Se calcula sumando las diferencias absolutas y dividiendo por el número total de observaciones. El MAE también se utiliza para evaluar la precisión de un modelo de regresión. A diferencia del MSE, el MAE no penaliza de manera desproporcionada los errores grandes, lo que lo hace más útil cuando se desea evaluar el rendimiento de un modelo sin importar la magnitud de los errores. Al igual que el MSE, un valor de MAE más bajo indica un mejor ajuste del modelo. Al comparar modelos, se prefiere aquellos con un MAE más bajo. El MAE tiene una interpretación intuitiva y directa, ya que está en las mismas unidades que los datos originales. Por ejemplo, en una predicción de tasa de inflación si el MAE es 0.5, significa que, en promedio, la predicción difiere en 0.5 % de la inflación real.
-R2 Coeficiente de Determinación
+* R2 Coeficiente de Determinación
 Esta métrica se utiliza para evaluar la calidad de un modelo de regresión. Es una medida de qué tan bien se ajustan los valores predichos por el modelo a los valores reales. El R2 se interpreta de la siguiente manera:
 Un valor cercano a 1 indica que el modelo explica una gran parte de la variabilidad de los datos y se ajusta bien a los datos. Un valor cercano a 0 indica que el modelo no explica mucha variabilidad y no se ajusta bien a los datos. Es importante tener en cuenta que un valor negativo de R2 no es una situación común y, en general, si se obtiene un valor negativo, es una señal de que el modelo no es apropiado para los datos.
 
