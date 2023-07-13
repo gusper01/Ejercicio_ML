@@ -11,7 +11,7 @@
 
 *[Acceso al proyecto](#Acceso-al-proyecto)
 
-*[Tecnologías utilizadas](#tecnologías-utilizadas)
+*[Tecnologías utilizadas](#Tecnologías-utilizadas)
 
 ---
 # Descripción-del-proyecto
@@ -77,3 +77,5 @@ Un valor cercano a 1 indica que el modelo explica una gran parte de la variabili
 | [Archivos](./Archivos) | Archivos generados con Python,  Pandas, pickle, predicciones, etc.. |
 | [Notebooks](./Notebooks) | Notebooks Colab con el código fuente del Modelo  |
 
+# Tecnologías-utilizadas
+:construction: En construcción :construction:
