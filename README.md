@@ -36,7 +36,7 @@ La metodología CRISP-DM define 6 fases en un proyecto de minería de datos o ma
  ## Comprensión del negocio
 Muchas organizaciones  utilizan modelos para pronosticar variables económicas clave, como la inflación, el crecimiento del PBI, las tasas de interés, entre otras. Estos modelos pueden incorporar una amplia gama de variables y utilizar algoritmos sofisticados para mejorar la precisión de las predicciones. El objetivo es proporcionar pronósticos más precisos que respalden la toma de decisiones. Es este contexto se propone. Desarrollar un ejercicio que recorra todos los pasos necesarios para generar modelo de Machine Learning que pueda predecir la tasa de inflación de Estados Unidos. utilizando datos/variables macroeconómicas. En general este problema se aborda combinando técnicas de regresión y series de tiempo. En este caso se toman datos de series de tiempo con indicadores macroeconómicos publicadas por la Reserva Federal (USA FED). https://fred.stlouisfed.org/docs/api/fred/overview.html 
  ## Comprensión de los datos
- Se toma como fuente de datos un conjunto de series de tiempo que contienen los siguientes indicadores macroeconómicos de ESTADOS UNIDOS
+ Se toma como fuente de datos un conjunto de series de tiempo que contienen los siguientes indicadores de USA
 * __CPIAUCSL__ este el índice de precios al consumidor para todas las áreas urbanas de USA. y representa el cambio porcentual mensual de los precios de una canasta de bienes y servicios consumidos por los hogares urbanos.
 https://fred.stlouisfed.org/series/CPIAUCSL
 * __FEDFUNDS__ Este es la serie de tiempo de la tasa de interés. Posee frecuencia mensual  
