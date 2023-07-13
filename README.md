@@ -15,7 +15,7 @@
 
 ---
 # Descripción-del-proyecto
-Este ejercicio tiene como principal objetivo es generar un acercamiento y experiencia en el uso de modelos de Machine Learning. Se plantea como caso de uso realizar un modelo de predicción de la Tasa de Inflación de USA. 
+El principal objetivo de este ejercicio es el de generar un acercamiento y experiencia en el uso de modelos de Machine Learning. Se plantea como caso de uso realizar un modelo de predicción de la Tasa de Inflación de USA. 
 
 
 # Estado-del-proyecto
