@@ -56,7 +56,7 @@ https://fred.stlouisfed.org/series/IPMAN
 https://fred.stlouisfed.org/series/MARTSMPCSM44000USS
 * __MICH__ Esta serie proporciona información sobre las expectativas de inflación de los consumidores en Estados Unidos. Esta serie mide las percepciones y predicciones de los consumidores sobre la tasa de inflación futura en la economía. Posee frecuencia mensual.
 https://fred.stlouisfed.org/series/MICH 
-* __Fórmula Tasa de Inflación__Tasa de inflación = ((CPIAUCSL actual - CPIAUCSL mes anterior) / CPIAUCSL del mes anterior) * 100 
+* __Fórmula Tasa de Inflación__ Tasa de inflación = ((CPIAUCSL actual - CPIAUCSL mes anterior) / CPIAUCSL del mes anterior) * 100 
  ## Preparación de los datos
  ## Modelado
  ## Evaluación
