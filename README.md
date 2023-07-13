@@ -72,4 +72,8 @@ Un valor cercano a 1 indica que el modelo explica una gran parte de la variabili
 
  ## Despliegue :rocket:
  # Acceso-al-proyecto :file_folder:
-  
+  | Carpeta              | Contenido |
+| -------------------- | --------- |
+| [Archivos](./Archivos) | Archivos generados con Python,  Pandas, pickle, predicciones, etc.. |
+| [Notebooks](./Notebooks) | Notebooks Colab con el código fuente del Modelo  |
+
