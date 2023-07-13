@@ -60,7 +60,7 @@ https://fred.stlouisfed.org/series/MICH
  ## Preparación de los datos
  ## Modelado
  ## Evaluación
-### Métricas de evaluación 
+### Métricas de evaluación :triangular_ruler:
 Las métricas en la evaluación de modelos de Machine Learning permiten medir la precisión, el error y la capacidad de explicación del modelo. Al utilizar estas métricas en conjunto, se puede obtener una imagen completa del rendimiento del modelo y tomar decisiones sobre su utilidad y eficacia. Para evaluar los resultados del ejercicio se decide aplicar las siguientes métricas:
 * MSE (Mean Square Error) Error Cuadrático Medio_
 El MSE se calcula como el promedio de los cuadrados de las diferencias entre los valores predichos y los valores reales. Un MSE más bajo indica que las predicciones del modelo son más cercanas a los valores reales en promedio. Se considera que un MSE más bajo indica una mejor precisión en las predicciones debido a que: • El MSE penaliza más los errores grandes. Al elevar al cuadrado las diferencias, los errores más grandes tienen un impacto mayor en el resultado final. Esto significa que, si el modelo comete algunos errores significativos, el MSE aumentará rápidamente. Por lo tanto, un MSE más bajo indica que el modelo está cometiendo en promedio menos errores grandes.
