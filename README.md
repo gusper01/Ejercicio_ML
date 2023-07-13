@@ -33,7 +33,7 @@ La metodología CRISP-DM define 6 fases en un proyecto de minería de datos o ma
 
 
 # Fases-del-Proyecto
- ##Comprensión del negocio
+ ## Comprensión del negocio
 Muchas organizaciones  utilizan modelos para pronosticar variables económicas clave, como la inflación, el crecimiento del PBI, las tasas de interés, entre otras. Estos modelos pueden incorporar una amplia gama de variables y utilizar algoritmos sofisticados para mejorar la precisión de las predicciones. El objetivo es proporcionar pronósticos más precisos que respalden la toma de decisiones. Es este contexto se propone. Desarrollar un ejercicio que recorra todos los pasos necesarios para generar modelo de Machine Learning que pueda predecir la tasa de inflación de Estados Unidos. utilizando datos/variables macroeconómicas. En general este problema se aborda combinando técnicas de regresión y series de tiempo. En este caso se toman datos de series de tiempo con indicadores macroeconómicos publicadas por la Reserva Federal (USA FED). https://fred.stlouisfed.org/docs/api/fred/overview.html
  ## Comprensión de los datos
  Se toma como fuente de datos un conjunto de series de tiempo que contienen los siguientes indicadores macroeconómicos de ESTADOS UNIDOS
@@ -41,7 +41,7 @@ Muchas organizaciones  utilizan modelos para pronosticar variables económicas c
  ## Preparación de los datos
  ## Modelado
  ## Evaluación
-* Métricas de evaluación 
+### Métricas de evaluación 
 Las métricas en la evaluación de modelos de Machine Learning permiten medir la precisión, el error y la capacidad de explicación del modelo. Al utilizar estas métricas en conjunto, se puede obtener una imagen completa del rendimiento del modelo y tomar decisiones sobre su utilidad y eficacia. Para evaluar los resultados del ejercicio se decide aplicar las siguientes métricas:
 * MSE (Mean Square Error) Error Cuadrático Medio_
 El MSE se calcula como el promedio de los cuadrados de las diferencias entre los valores predichos y los valores reales. Un MSE más bajo indica que las predicciones del modelo son más cercanas a los valores reales en promedio. Se considera que un MSE más bajo indica una mejor precisión en las predicciones debido a que: • El MSE penaliza más los errores grandes. Al elevar al cuadrado las diferencias, los errores más grandes tienen un impacto mayor en el resultado final. Esto significa que, si el modelo comete algunos errores significativos, el MSE aumentará rápidamente. Por lo tanto, un MSE más bajo indica que el modelo está cometiendo en promedio menos errores grandes.
