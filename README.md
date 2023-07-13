@@ -1,5 +1,10 @@
 # Ejercicio_ML
 ## “All models are wrong, some are useful.” George Box
+*[Descripción del proyecto](#descripción-del-proyecto)
+*[Estado del proyecto](#Estado-del-proyecto)
+*[Características de la aplicación y demostración](#Características-de-la-aplicación-y-demostración)
+*[Acceso al proyecto](#acceso-proyecto)
+*[Tecnologías utilizadas](#tecnologías-utilizadas)
 
 Ejercicio de predicción de Tasa de Inflación USA
 En este ejercicio se decide aplicar la metodología CRISP-DM (Cross-Industry Standard Process for Data Mining) esta es una metodología ampliamente utilizada en el campo de la minería de datos y el desarrollo de proyectos de análisis de datos. Proporciona un marco estructurado y sistemático para el desarrollo de proyectos de minería de datos, incluyendo el proceso de construcción de modelos de machine Learning.
