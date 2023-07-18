@@ -79,7 +79,8 @@ Un valor cercano a 1 indica que el modelo explica una gran parte de la variabili
 
 # Tecnologías-utilizadas
 * Python
-* Jupyter Notebooks
+* [Google_Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb?hl=es)
 * API KEY - FRED
   Se debe generar una cuenta en el sitio de FRED https://fred.stlouisfed.org/ previamente 
-  
+
+
