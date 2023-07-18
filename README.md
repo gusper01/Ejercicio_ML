@@ -81,5 +81,5 @@ Un valor cercano a 1 indica que el modelo explica una gran parte de la variabili
 * Python
 * Jupyter Notebooks
 * API KEY - FRED
-  Se debe genenar una cuenta en el sitio de FRED https://fred.stlouisfed.org/ previamente 
+  Se debe generar una cuenta en el sitio de FRED https://fred.stlouisfed.org/ previamente 
   
