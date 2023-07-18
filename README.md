@@ -78,6 +78,6 @@ Un valor cercano a 1 indica que el modelo explica una gran parte de la variabili
 | [Notebooks](./Notebooks) | Notebooks Colab con el código fuente del Modelo  |
 
 # Tecnologías-utilizadas
-Python
-Jupyter Notebooks 
+* Python
+* Jupyter Notebooks 
   
