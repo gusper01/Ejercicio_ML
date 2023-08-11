@@ -60,7 +60,7 @@ https://fred.stlouisfed.org/series/MICH
  ## Preparación de los datos
  Test de Dickey-Fuller Aumentado con Datos transformados
  Se transformaron las series de tiempo: eliminando valores nulos data2.dropna(inplace=True) y se aplican transformaciones log y diff(esta transformación calcula la diferencia entre observaciones consecutivas) para 
- eliminar la tendencia o la estacionalidad como por ejemplo :data2['Tasa Interes'] = np.log(data2['Tasa Interes']).diff()
+ eliminar la tendencia o la estacionalidad como por ejemplo: ```data2['Tasa Interes'] = np.log(data2['Tasa Interes']).diff()```
  ## Modelado
  ## Evaluación
 ### Métricas de evaluación :triangular_ruler:
