@@ -31,6 +31,7 @@ La metodología CRISP-DM define 6 fases en un proyecto de minería de datos o ma
 *	Evaluación: Se evalúa el rendimiento de los modelos construidos utilizando métricas apropiadas. Se realiza una validación cruzada y se ajustan los modelos según sea necesario para mejorar su desempeño.
 *	Despliegue: Se implementa el modelo seleccionado en un entorno operativo. Se documenta el proceso y se crea un plan de seguimiento y mantenimiento del modelo. Se realiza un seguimiento continuo para evaluar su rendimiento y realizar ajustes si es necesario.
 
+![Metodología CRISP DM](https://raw.githubusercontent.com/gusper01/Ejercicio_ML/main/Archivos/CrispDM.png)
 
 # Fases-del-Proyecto
  ## Comprensión del negocio
@@ -86,7 +87,10 @@ Esta métrica se utiliza para evaluar la calidad de un modelo de regresión. Es 
 Un valor cercano a 1 indica que el modelo explica una gran parte de la variabilidad de los datos y se ajusta bien a los datos. Un valor cercano a 0 indica que el modelo no explica mucha variabilidad y no se ajusta bien a los datos. Es importante tener en cuenta que un valor negativo de R2 no es una situación común y, en general, si se obtiene un valor negativo, es una señal de que el modelo no es apropiado para los datos.
 
  ## Despliegue :rocket:
-### "Los datos y el código se actualizan de forma regular, lo que puede llevar a variaciones en algunos resultados y visualizaciones." 
+<table><tr><td>
+<pre>Los datos y el código se actualizan de forma regular, lo que puede llevar a variaciones en algunos resultados y visualizaciones.
+</pre>
+</td></tr></table> 
 ![Predicciones](https://raw.githubusercontent.com/gusper01/Ejercicio_ML/main/Archivos/Predicciones.png)
  
 
