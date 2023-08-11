@@ -31,7 +31,7 @@ La metodología CRISP-DM define 6 fases en un proyecto de minería de datos o ma
 *	Evaluación: Se evalúa el rendimiento de los modelos construidos utilizando métricas apropiadas. Se realiza una validación cruzada y se ajustan los modelos según sea necesario para mejorar su desempeño.
 *	Despliegue: Se implementa el modelo seleccionado en un entorno operativo. Se documenta el proceso y se crea un plan de seguimiento y mantenimiento del modelo. Se realiza un seguimiento continuo para evaluar su rendimiento y realizar ajustes si es necesario.
 
-![Metodología CRISP_DM](https://raw.githubusercontent.com/gusper01/Ejercicio_ML/main/Archivos/CrispDM.png)
+![Metodología CRISP_DM](https://raw.githubusercontent.com/gusper01/Ejercicio_ML/main/Archivos/CrispDM.PNG)
 
 # Fases-del-Proyecto
  ## Comprensión del negocio
