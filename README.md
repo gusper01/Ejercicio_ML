@@ -1,5 +1,5 @@
 # Ejercicio_ML
-## “All models are wrong, some are useful.” George Box
+## “All models are wrong, but some are useful.” George Box
 
 *[Descripción del proyecto](#Descripción-del-proyecto)
 
