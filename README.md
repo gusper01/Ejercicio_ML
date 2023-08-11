@@ -32,7 +32,7 @@ La metodología CRISP-DM define 6 fases en un proyecto de minería de datos o ma
 *	Despliegue: Se implementa el modelo seleccionado en un entorno operativo. Se documenta el proceso y se crea un plan de seguimiento y mantenimiento del modelo. Se realiza un seguimiento continuo para evaluar su rendimiento y realizar ajustes si es necesario.
 
 
-#Fases-del-Proyecto
+# Fases-del-Proyecto
  ## Comprensión del negocio
 Muchas organizaciones  utilizan modelos para pronosticar variables económicas clave, como la inflación, el crecimiento del PBI, las tasas de interés, entre otras. Estos modelos pueden incorporar una amplia gama de variables y utilizar algoritmos sofisticados para mejorar la precisión de las predicciones. El objetivo es proporcionar pronósticos más precisos que respalden la toma de decisiones. Es este contexto se propone. Desarrollar un ejercicio que recorra todos los pasos necesarios para generar modelo de Machine Learning que pueda predecir la tasa de inflación de Estados Unidos. utilizando datos/variables macroeconómicas. En general este problema se aborda combinando técnicas de regresión y series de tiempo. En este caso se toman datos de series de tiempo con indicadores macroeconómicos publicadas por la Reserva Federal (USA FED). https://fred.stlouisfed.org/docs/api/fred/overview.html 
 ## Comprensión de los datos :chart_with_downwards_trend:
