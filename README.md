@@ -86,7 +86,7 @@ Esta métrica se utiliza para evaluar la calidad de un modelo de regresión. Es 
 Un valor cercano a 1 indica que el modelo explica una gran parte de la variabilidad de los datos y se ajusta bien a los datos. Un valor cercano a 0 indica que el modelo no explica mucha variabilidad y no se ajusta bien a los datos. Es importante tener en cuenta que un valor negativo de R2 no es una situación común y, en general, si se obtiene un valor negativo, es una señal de que el modelo no es apropiado para los datos.
 
  ## Despliegue :rocket:
-<span>![</span><span>Aquí la descripción de la imagen por si no carga</span><span>]</span><span>(</span><span>[https://raw.githubusercontent.com/parzibyte/WaterPy/master/assets/ImagenV1.png](https://raw.githubusercontent.com/gusper01/Ejercicio_ML/main/Archivos/Predicciones.png)</span><span>)</span>
+![Predicciones](https://raw.githubusercontent.com/parzibyte/WaterPy/master/assets/ImagenV1.png](https://raw.githubusercontent.com/gusper01/Ejercicio_ML/main/Archivos/Predicciones.png)</span><span>)
  
 
  # Acceso-al-proyecto
