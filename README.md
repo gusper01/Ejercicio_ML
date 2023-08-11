@@ -62,7 +62,13 @@ https://fred.stlouisfed.org/series/MICH
 * Se transformo el dataframe con las series de tiempo: eliminando valores nulos ```data2.dropna(inplace=True)``` y se aplican transformaciones log y diff(esta transformación calcula la diferencia entre observaciones 
  consecutivas) para eliminar tendencia o estacionalidad:  ```data2['Tasa Interes'] = np.log(data2['Tasa Interes']).diff()```
  ## Modelado
- ## Evaluación
+### Conjuntos de datos (entrenamiento y test)
+En la construcción de los conjuntos de entrenamiento y test se aplicó la técnica de validación cruzada en series temporales (Time Series Cross-Validation). A diferencia de la validación cruzada tradicional, donde se asume que las observaciones son independientes entre sí, en la validación cruzada en series temporales se tiene en cuenta la dependencia temporal de los datos. que preserva la estructura temporal al realizar la validación cruzada. La idea principal detrás de la validación cruzada de series temporales es simular el escenario de predicción en el tiempo real, donde se cuenta con datos históricos hasta un momento determinado y se desea predecir los valores futuros. Para lograr esto, se divide el conjunto de datos en múltiples conjuntos de entrenamiento y prueba, de manera que las observaciones en los conjuntos de prueba siempre ocurren después de las observaciones en los conjuntos de entrenamiento.
+|A los efectos de este ejercicio, si bien se genera el código para realizar la validación cruzada de la serie temporal y se aplica al conjunto de datos transformado. Se toman solo el primer par de conjuntos de entrenamiento y test generado. Se tener en cuenta que en un escenario productivo debería evaluarse el rendimiento del modelo en distintos puntos en el tiempo|
+### Algoritmos de Modelado
+Se seleccionaron 3 algoritmos de machine learning  para modelos de regresión, se determinó utilizar los algoritmos de Linear Regression, Random Forest y XGBoost para determinar el más adecuado para el problema de predicción de tasa de inflación de Estados Unidos. 
+
+## Evaluación
 ### Métricas de evaluación :triangular_ruler:
 Las métricas en la evaluación de modelos de Machine Learning permiten medir la precisión, el error y la capacidad de explicación del modelo. Al utilizar estas métricas en conjunto, se puede obtener una imagen completa del rendimiento del modelo y tomar decisiones sobre su utilidad y eficacia. Para evaluar los resultados del ejercicio se decide aplicar las siguientes métricas:
 * MSE (Mean Square Error) Error Cuadrático Medio_
