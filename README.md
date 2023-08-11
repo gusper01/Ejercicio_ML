@@ -90,7 +90,7 @@ Un valor cercano a 1 indica que el modelo explica una gran parte de la variabili
   | Carpeta              | Contenido |
 | -------------------- | --------- |
 | [Archivos](./Archivos) | Archivos generados con Python,  Pandas, pickle, predicciones, etc.. |
-| [Notebooks](./Notebooks) | Notebooks Colab con el código fuente del Modelo  |
+| [Notebooks](./Notebooks) | Notebooks Colab con el código fuente generado |
 
 # Tecnologías-utilizadas
 * Python
