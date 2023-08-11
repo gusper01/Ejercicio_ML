@@ -58,8 +58,8 @@ https://fred.stlouisfed.org/series/MARTSMPCSM44000USS
 https://fred.stlouisfed.org/series/MICH 
 * __Fórmula Tasa de Inflación:__ Tasa de inflación = ((CPIAUCSL actual - CPIAUCSL mes anterior) / CPIAUCSL del mes anterior) * 100 
  ## Preparación de los datos
- A las series de tiempo se les aplicó [Test de Dickey-Fuller Aumentado](https://www.sciencedirect.com/topics/economics-econometrics-and-finance/dickey-fuller-test) 
- Se transformo el dataframe con las series de tiempo: eliminando valores nulos ```data2.dropna(inplace=True)``` y se aplican transformaciones log y diff(esta transformación calcula la diferencia entre observaciones 
+ * A las series de tiempo se les aplicó [Test de Dickey-Fuller Aumentado](https://www.sciencedirect.com/topics/economics-econometrics-and-finance/dickey-fuller-test) 
+ * Se transformo el dataframe con las series de tiempo: eliminando valores nulos ```data2.dropna(inplace=True)``` y se aplican transformaciones log y diff(esta transformación calcula la diferencia entre observaciones 
  consecutivas) para eliminar tendencia o estacionalidad:  ```data2['Tasa Interes'] = np.log(data2['Tasa Interes']).diff()```
  ## Modelado
  ## Evaluación
