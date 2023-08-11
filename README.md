@@ -91,6 +91,7 @@ Un valor cercano a 1 indica que el modelo explica una gran parte de la variabili
 <pre>Los datos y el código se actualizan de forma regular, lo que puede llevar a variaciones en algunos resultados y visualizaciones.
 </pre>
 </td></tr></table> 
+
 ![Predicciones](https://raw.githubusercontent.com/gusper01/Ejercicio_ML/main/Archivos/Predicciones.png)
  
 
